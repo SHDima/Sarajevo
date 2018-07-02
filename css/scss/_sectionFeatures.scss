@@ -1,0 +1,74 @@
+.sectionFeatures:hover .heard{
+	color:red;
+}
+.sectionFeatures{
+	background-color: #dbdbdb;
+	&_h3{
+		margin-top:4.8rem;
+		font-family: Lato;
+		color: #4c76ff;
+		font-size:1.75rem;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	&_h4{
+		position: relative;
+		bottom:9px;
+		display: inline-block;
+		font-family: 'OpenSans',sans-serif;
+		color: #061f33;
+		font-size: 1.1rem;
+		font-weight: 600;
+		padding-left: 1rem;
+	}
+	&_content{
+		font-family: 'OpenSans',sans-serif;
+	    color:rgb(106, 115, 123);
+		font-size: 0.8rem;
+		font-weight: 400;
+		line-height: 1.2rem;
+		padding-left: 60px;
+		padding-bottom:7.3rem;
+	}
+}
+.borderbottom{
+	margin-top: 1.5rem;
+	position: relative;
+	margin-bottom:4rem ;
+}
+.borderbottom:after{
+   content:'';
+   width:100px;
+   height: 1px;
+   background-color:rgb(181, 186, 190);
+   position: absolute;
+   bottom:50%;
+   left: 38%;
+}
+.borderbottom:before{
+	content:'';
+	width:100px;
+	height: 1px;
+	background-color:rgb(181, 186, 190);
+	position: absolute;
+	bottom:50%;
+	right:38%;
+
+}
+
+.heard{
+	color:rgb(181, 186, 190);
+	transition:1s;
+}
+.radius{
+	width: 40px;
+	height: 40px;
+	border: 1px solid blue;
+	display: inline-block;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 50%;
+	i{
+    color: #4c76ff;
+	}
+}

@@ -1,0 +1,51 @@
+.padding{
+	font-family: 'OpenSans',sans-serif;
+	color:rgb(106, 115, 123);
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 2.1rem;
+    padding:6rem 4rem 4rem 4rem;
+
+}
+.sectionMobile{
+	&_h5{
+		margin-left: 25px;
+		display: inline-block;
+		font-family: 'OpenSans',sans-serif;
+		color: #282528;
+		font-size:0.9rem;
+		font-weight: 700;
+		line-height: 1.1rem;
+
+	}
+	&_content{
+		padding-left: 60px;
+		font-family: 'OpenSans',sans-serif;
+		color:rgb(106, 115, 123);
+		font-size: 0.85rem;
+		font-weight: 400;
+		line-height: 1.5rem;
+		margin-bottom:4.2rem;
+		cursor:pointer;
+	    transition:0.5s;
+	    padding-bottom:5px;
+	}
+
+}
+.far_size{
+	font-size: 2rem;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	color:rgb(106, 115, 123);
+	transition:1s;
+}
+.sectionMobile_hover:hover .far_size{
+	color: #282528;
+}
+.sectionMobile_hover{
+	transition:0.5s;
+}
+.sectionMobile_hover:hover{
+	background-color: rgba(247, 227, 39, 0.1);
+}

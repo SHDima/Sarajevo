@@ -1,0 +1,100 @@
+.sectiondiscuss{
+	&_p{
+		font-family: Lato;
+		color: rgb(6, 32, 51);
+		font-size: 1.1rem;
+		font-weight: 100;
+		line-height:1.5rem;
+	}
+	&_content{
+		margin-top: 5rem;
+		p{
+			font-family: 'OpenSans',sans-serif;
+			color: #062033;
+			font-size: 1.1rem;
+			font-weight: 400;
+			line-height: 32px;
+		}
+		span{
+			display: inline-block;
+			font-family: 'OpenSans',sans-serif;
+			color: #6a737b;
+			font-size: 0.7rem;
+			font-weight: 400;
+			line-height: 1.5rem;
+		}
+	}
+	&_input{
+		transition:.5s;
+      border: 0;
+      border-bottom:1px solid rgba(0, 0, 0, 0.2);
+      font-family: 'OpenSans',sans-serif;
+      color: rgba(91, 100, 110, 0.5);
+      font-size: 0.7rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      padding:10px 0;
+      width:98%;
+      &_width50{
+      	width:45%;
+      }
+	}
+	&_input:first-child{
+		margin-right: 7%;
+	}
+}
+.container_button{
+	padding-right:2%;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	button{
+		border: 1px solid white;
+		transition:.5s;
+		border-radius: 5px;
+		margin-bottom: 5rem;
+		margin-top: 1.5rem;
+		background-color: #FFF;
+		cursor: pointer;
+		opacity:0.9;
+		font-family: 'Lato',sans-serif;
+		font-size:0.8rem;
+		font-weight: 400;
+		line-height: 1.5rem;
+		i{
+			position: relative;
+			top: 1px;
+			font-size: 1rem;
+			color: #4c76ff;
+			margin-right:0.5rem;
+		}
+
+	}
+}
+.seti{
+	i{
+		cursor: pointer;
+		display: block;
+		margin-bottom: 1rem;
+	    color: rgba(6, 32, 51, 0.2);
+	    transition: color 1s;
+	}
+	i:hover{
+		color:black;
+	}
+}
+#map{
+	width: 100%;
+	height:14rem;
+}
+.sectiondiscuss:hover .heard{
+	color:red;
+}
+.sectiondiscuss_input:hover{
+	background-color:#FAFAFA;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.container_button button:hover{
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}

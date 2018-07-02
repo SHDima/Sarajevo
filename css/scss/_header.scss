@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,400|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+.ball{
+	width:20px;
+	height: 20px;
+	border-radius:100%;
+	background-color: blue;
+	position: absolute;
+	animation:boll 4s linear ;
+   top:70%;
+   left:80%;
+}
+.home{
+   transition:1s;
+}
+.slider{
+	width:100%;
+	height:42rem;
+}
+@keyframes boll{
+0%{
+   top:0;
+   left:20%;
+}
+15%{
+	top:70%;
+	left:35%;
+}
+25%{
+	top:50%;
+	left:45%;
+}
+
+40%{
+	top:70%;
+	left:55%;
+}
+55%{
+	top:60%;
+	left:65%;
+}
+70%{
+	top:70%;
+	left:75%;
+}
+85%{
+	top:70%;
+	left:80%;
+}
+100%{
+	top:70%;
+	left:80%;
+}
+}
+.amination{
+	position:fixed;
+	background-color:#100F0F;
+	width: 100%;
+	height: 100vh;
+	opacity:1;
+	z-index: 1000;
+	transition:2s;
+	color: #FFF;
+	font-size: 10rem;
+	&_text{
+       font-family: Lato;
+		margin-top: 15rem;
+		width: 100%;
+
+	}
+	span{
+
+		opacity:0;
+		font-weight:700;
+		font-style: italic;
+		display: inline-block;
+		letter-spacing:-20px;
+		transition:1s;
+	}
+}
+.red{
+	display: inline-block;
+	opacity:1 !important;
+	color:red;
+}
+.hide{
+  opacity:0;
+}
+.dn{
+	display: none;
+}
+.header{
+  background-image: url('../../img/headerBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  &_i{
+	transition:0.5s;
+	cursor:pointer;
+	color:rgb(181, 186, 190);
+	margin-left: 0.5rem;
+}
+	&_i:hover{
+		color: #FFF;
+}
+}
+.logo{
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	color:#ffffff;
+	font-size: 1.25rem;
+	font-weight: 900;
+	cursor:pointer;
+}
+.tagline{
+	font-family: Lato;
+	color:rgb(241, 242, 244);
+	font-size:0.8rem;
+	font-weight: 100;
+	font-style: italic;
+}
+.logo_dot{
+	color:
+	#4c76ff;
+	font-size:1.25rem;
+	font-weight: 900;
+	text-align: left;
+}
+.menu{
+	display: inline-block;
+	text-decoration: none;
+	&_item{
+		display: inline-block;
+		list-style-type:none;
+		margin-right:2rem;
+		a{
+			display: block;
+			font-family: 'Lato', sans-serif;
+			color:#ffffff;
+		    font-size: 0.75rem;
+		    font-weight: 100;
+		    text-decoration: none;
+		    transition:0.5s;
+		 }
+		 a:hover{
+		 	-webkit-transform: scale(1.2);
+		 	  -ms-transform: scale(1.2);
+		 	  transform: scale(1.2);
+		     color:#ddffdd;
+		 }
+
+	}
+}
+h1{
+	padding-top: 15.75rem;
+	font-family: Lato;
+	color: #ffffff;
+	font-size: 3.8rem;
+	font-weight: 900;
+	span{
+    color: #4c76ff;
+    font-size:3.8rem;
+    font-weight: 400;
+	}
+}
+.creative{
+	font-family: Lato;
+	color: #ffffff;
+	font-size: 3rem;
+	font-weight: 100;
+	span{
+		font-family: Lato;
+		color: #4c76ff;
+		font-size: 3rem;
+		font-weight: 100;
+		}
+}
+.teamprofesional{
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	font-size: 1.1rem;
+	font-weight: 100;
+	letter-spacing:0.1rem;
+	position: relative;
+}
+.teamprofesional:after{
+	content:'';
+	width:2rem;
+	height:1px;
+	background-color: rgb(76, 118, 255);
+	position: absolute;
+	bottom:45%;
+	right:30%;
+	}
+.teamprofesional:before{
+	content:'';
+	width:2rem;
+	height:1px;
+	background-color: rgb(76, 118, 255);
+	position: absolute;
+	bottom:45%;
+	left:30%;
+}
+.mt-100{
+	margin-top: 6.25rem;
+}
+.pb-120{
+	padding-bottom: 8rem;
+}
+.mouseshow{
+	display: inline-block;
+	color: #FFF;
+	cursor:pointer;
+}

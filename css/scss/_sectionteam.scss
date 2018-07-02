@@ -1,0 +1,80 @@
+.sectionteam:hover .heard{
+	color: red;
+}
+.team{
+	padding:0 15px;
+	p{
+		margin-top:.6rem;
+		font-family: 'OpenSans',sans-serif;
+		color: rgb(6, 32, 51);
+		font-size: .9rem;
+		font-weight: 600;
+		line-height: 1.5rem;
+		margin-bottom: 0;
+	}
+	span{
+		font-family: 'OpenSans',sans-serif;
+		color: rgba(6, 32, 51,0.5);
+		font-size: 0.7rem;
+		font-weight: 400;
+		line-height:1.5rem;
+	}
+	&_hover{
+		position:relative;
+		display: inline-block;
+		&_block{
+			transition:0.7s;
+			position: absolute;
+			top:0;
+			bottom: 0;
+			padding: 0 10px;
+	        background-color: rgba(76, 118, 255, 0.95);
+	        display: flex;
+	        align-items: center;
+	        flex-direction: column;
+	        padding: 0 15px;
+	        opacity:0;
+	        p{
+	        	font-family: 'OpenSans',sans-serif;
+	        	color: #ffffff;
+	        	font-size: .9rem;
+	        	font-weight: 700;
+	        	line-height: 1.5rem;
+	        	margin-bottom: 5px;
+	        	opacity:0.9;
+	        }
+	        span{
+	        	font-family: 'OpenSans',sans-serif;
+	        	color: #ffffff;
+	        	font-size: .85rem;
+	        	font-weight: 400;
+	        	line-height: 1.2rem;
+	        	opacity:0.5;
+	        }
+		}
+	}
+}
+.sectionteam_fonts{
+	margin-top: 2.5rem;
+	color: #ffffff;
+	font-size:1.5rem;
+	font-weight: 400;
+	line-height: 2rem;
+	i{
+		cursor: pointer;
+        padding-top: 5px;
+		margin-left: 3px;
+		background-color:#3b57b1;
+		width:35px;
+		height: 35px;
+	}
+}
+.team:hover .team_hover_block{
+	opacity:1;
+}
+.team:hover .sectionteamhover_p{
+	color: #0eb493;
+}
+.sectionteamhover_p{
+	transition:0.5s;
+}
