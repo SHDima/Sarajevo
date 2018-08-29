@@ -63,13 +63,13 @@ $(document).ready(function() {
 					$('.home').removeClass('show');
 		    }
       });
+	/*__________________Anime__________________*/
 		setTimeout(function() {
 			$(".amination").addClass("hide");
 		 }, 3500);
 		setTimeout(function() {
 			$(".amination").addClass("dn");
 		 }, 4500);
-
      var item = $('.item_animation');
      var timeout = 0;
      for (var i = 0; i < item.length; i++) {
@@ -118,9 +118,6 @@ $(document).ready(function(){
              slidesToScroll: 2
            }
          }
-         // You can unslick at a given breakpoint now by adding:
-         // settings: "unslick"
-         // instead of a settings object
        ]
      });
    });
